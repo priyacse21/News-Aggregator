@@ -1,0 +1,38 @@
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* Replace the URL with the online collage of news */
+  background-image: url('https://img.freepik.com/free-vector/digital-earth-concept-technology-background_1017-33684.jpg?t=st=1720808008~exp=1720811608~hmac=33dafd230ddaadc5d0bea89c3da6cfaf81cc76a1bd4ac993f50c4cfea9cbdf35&w=1380');
+}
+
+.content {
+  text-align: left; /* Align text to the left */
+  color: rgb(254, 254, 254);
+  padding: 2px; /* Add padding for better readability */
+  margin-left: 1px; /* Adjust margin to move content closer to the left */
+  max-width: 800px; /* Limit content width to avoid stretching on larger screens */
+}
+
+.content h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.home-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #5175c1;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.home-button:hover {
+  background-color: #9dc732;
+}
